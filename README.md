@@ -23,7 +23,7 @@ Then use
 ```
     ./PathGen
 ```
-to generate the Key Dependency Paths. Make sure the folder data/Round\_i has been created.
+to generate the Key Dependency Paths. Make sure the folder ``data/Round\_i`` has been created.
 
 AKI - Minimum Cut Algorithm
 ---------------
@@ -38,7 +38,7 @@ You can use
 ```
     ./main
 ```
-to analyze the KDPs in data/Round\_i folders, or use
+to analyze the KDPs in ``data/Round\_i`` folders, or use
 ```
     ./main file/to/your/subkeyset.txt
 ```
@@ -57,3 +57,14 @@ Use
 ```
 to generate a key dependency matrix without Key Information leakage based on your subkey sets.
 The answer will be in ``AnsMatrix.txt`` as an output file.
+
+Matrices
+-----------
+We also include the dependency matrices of the following encryption algorithms in the folder ``matrices\XXX``:
+* KLEIN
+* LED
+* Midori
+* PRESENT
+* RECTANGE
+* SIMON
+* TWINE
